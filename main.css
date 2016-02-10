@@ -1,0 +1,18 @@
+li.block {
+  display: inline-block;
+  list-style: none;
+}
+
+span.inline {
+  border: 1px solid black;
+  margin: 25px;
+}
+
+article.n-child section:nth-of-type(2n+0){
+  border: 1px solid black;
+}
+
+/*The below is the same code BUT above is more flexible obviously.
+/*article.n-child section:nth-of-type(even){
+  border: 1px solid black;
+}*/
